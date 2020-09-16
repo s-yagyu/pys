@@ -1,0 +1,25 @@
+###### Our operating packege version ######
+
+# python                    3.7.6
+# conda                     4.8.3
+# joblib                    0.14.1
+# matplotlib                3.2.1
+#notebook                  6.0.3
+# numpy                     1.18.1
+# pandas                    1.0.3
+# scikit-learn              0.22.2.post1
+# scipy                     1.3.1
+# seaborn                   0.10.0
+
+
+###### Requirements without Version Specifiers ######
+matplotlib
+notebook
+numpy
+scipy
+seaborn
+
+###### Requirements with Version Specifiers ######
+pandas >= 1.0.3            
+scikit-learn >= 0.22.2
+joblib >=  0.14.1  

@@ -71,6 +71,9 @@ validation_data_MDR_results.xlsx：検証データ+機械学習・Fittingの予�
 spys_reg_20200623ホルダー
 
 機械学習のパラメータが入っています。
+パラメータファイルはhttps://mdr.nims.go.jp/concern/publications/v979v408s?locale=en
+からダウンロードしてください。
+Githubの仕様で、容量の大きいパラメータファイルを置けないので、分割して圧縮したファイルを添付しています。（3つのファイルに分かれています。）
 
 
 

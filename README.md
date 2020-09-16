@@ -1,6 +1,7 @@
 ## 「機械学習による光電子収量分光（PYS） スペクトルの自動閾値予測」論文の付属データ
 
 光電子収量分光（PYS）における、閾値予測のプログラムコード・機械学習パラメータ・検証データを公開します。
+
 論文「機械学習による光電子収量分光（PYS） スペクトルの自動閾値予測」：https://doi.org/10.1380/vss.63.270
 
 既に公開されているリポジトリのものをベースに修正が加えられています。
@@ -10,10 +11,15 @@ https://mdr.nims.go.jp/concern/publications/v979v408s?locale=en
 ### PYS論文に使われたプログラム・データ
 
 （1）Fowler解析関数より計算データ（教師データセット）作成
+
 （2）計算データの機械学習
+
 （3）測定データによる検証
+
 この他に、
+
 （4）検証データ　Excel
+
 （5）機械学習のパラメータファイル
 
 ##### Directry構成
@@ -31,14 +37,21 @@ https://mdr.nims.go.jp/concern/publications/v979v408s?locale=en
 
 添付ファイルの説明
 （1）-（3）に使われる共通コードは、2つのモジュールにまとめられています。
+
 pysfunclib :PYSの計算式、最適化関数、グラフ描画などプログラム
+
 autoreglib：Scikit-learnモジュールをいくつか組み合わせて、学習からグリッドサーチ、描画まで機械学習を自動化したプログラム
 
 計算の実際 (Jupyter notebook形式)（計算結果が載っているもの）
+
 reg_data_model-making.ipynb：計算データの作成と機械学習
+
 validation.ipynb：測定データ検証
+
 ml_fit_prediction.ipynb：任意のデータの予測
+
 data_range_madify.ipynb：測定データの範囲・ステップを変更
+
 
 計算結果が載っていないものについては、それぞれのファイル名に「_clear」と書かれています。
 ipynbファイルの内容と同じものでHTML形式のものについては、html_ipynbホルダーに格納されています。
@@ -47,11 +60,16 @@ ipynbファイルの内容と同じものでHTML形式のものについては�
 にipynbファイルをドロップすると内容を見ることができます。
 
 dataホルダー
+
 df_au481_pys.csv：Auを測定したデータ（閾値：4.81eV）
+
 validation_data_MDR.xlsx：検証データ（理研計器AC装置で測定したもの）
+
 validation_data_MDR_results.xlsx：検証データ+機械学習・Fittingの予測値が入ったもの
 
+
 spys_reg_20200623ホルダー
+
 機械学習のパラメータが入っています。
 
 

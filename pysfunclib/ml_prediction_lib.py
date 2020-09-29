@@ -126,4 +126,4 @@ class MLPredict():
                     xytext=(self.predict_rf,  max_value_y*0.6),
                     arrowprops=dict(facecolor='blue',lw=1,shrinkA=0,shrinkB=0),fontsize=16)
 
-        plt.show()
+        plt.show(block=False)

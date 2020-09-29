@@ -119,8 +119,25 @@ joblib >=  0.14.1
 
 ### GUIの使い方
 main.pyを実行してください。
-ホルダー構成
+ホルダー構成は以下のようにします。
+
 ![ホルダー構成](./assets/mainGUI01.PNG)
+
 しばらくするとGUI　Windowが立ち上がります。（最初に、機械学習のパラメータファイルを読み込んでいるので時間がかかります。）
+
+Browseボタンを押してCSVファイルを指定します。ここでは、dataホルダーにあるdf_au481_pys.csvを指定します。
+
+![ファイル指定](./assets/mainGUI02.PNG)
+
+Submitボタンを押します。そしてPlotボタンを押します。
+※ここで、入力する（CSV）のデータはPYSのデータですので、ラジオボタンはPYSを選びます。もしDataがPYS1/2乗でしたらpys1/2を選びます。
+
+![Plot](./assets/mainGUI03.PNG)
+グラフの右上の×ボタンで閉じます。PYS1/2乗のプロットが表示されます。
+
+Predictボタンを押します。
+
+![Predict](./assets/mainGUI04.PNG)
+
 
 

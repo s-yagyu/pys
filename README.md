@@ -27,13 +27,14 @@ https://mdr.nims.go.jp/concern/publications/v979v408s?locale=en
     autoreglib
     pysfunclib
     data---df_au481_pys.csv
-       ---validation_data_MDR.xlsx
-       ---validation_data_MDR_results.xlsx
+        ---validation_data_MDR.xlsx
+        ---validation_data_MDR_results.xlsx
     spys_reg_20200623
     reg_data_model-making.ipynb
     validation.ipynb
     ml_fit_prediction.ipynb
     data_range_madify.ipynb
+    main.py
 
 添付ファイルの説明
 （1）-（3）に使われる共通コードは、2つのモジュールにまとめられています。
@@ -51,6 +52,8 @@ validation.ipynb：測定データ検証
 ml_fit_prediction.ipynb：任意のデータの予測
 
 data_range_madify.ipynb：測定データの範囲・ステップを変更
+
+main.py: GUI CSVファイルの読み込み、Plot、予測+Plot
 
 
 計算結果が載っていないものについては、それぞれのファイル名に「_clear」と書かれています。
@@ -98,6 +101,7 @@ pandas                    1.0.3
 scikit-learn              0.22.1
 scipy                     1.3.1
 seaborn                   0.10.0
+pysimplegui               4.15.2
 
 ###### Requirements without Version Specifiers ######
 
@@ -105,6 +109,7 @@ matplotlib
 numpy
 scipy
 seaborn
+pysimplegui
 
 ###### Requirements with Version Specifiers ######
 

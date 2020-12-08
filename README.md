@@ -140,4 +140,10 @@ Predictボタンを押します。
 ![Predict](./assets/mainGUI04.PNG)
 
 
+### Google colabの利用
+
+pys_colab.ipynbをcolab Notebooksホルダーに入れてください。
+
+その後はpys_colab.ipynbに書いてあるように行ってください。
+
 
